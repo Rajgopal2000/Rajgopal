@@ -8,18 +8,25 @@
 }
 body{
     font-family: 'Samsung Sharp Sans', sans-serif;
-    background-color: rgba(0, 0, 0, 0.644); 
+    background-color:rgb(241, 213, 218) ; 
 }
 .nav-bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 15px 20px;
+    padding: 5px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.nav-bar:hover{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 68%, rgba(180,117,117,1) 100%);
 }
 .logo img{
-    width: 200px;
-    margin: 10px 30px;
+    width: 75px;
+    margin: 5px 10px;
 }
 .search-box{
     display: flex;
@@ -33,6 +40,9 @@ body{
     padding: 15px;
     border-radius: 10px 0px 0px 10px;
     border: none;
+}
+.search-box input:hover{
+    background-color: #88c5f7;
 }
 .search-box button{
     padding: 5px 10px;
@@ -57,11 +67,17 @@ body{
     margin-left: 15px;
 }
 .nav-icon img{
-    width: 30px;
+    width: 25px;
     //filter: invert(100%);
 }
 .hero-section img{
     width:100%;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 30px;
+    
+}
+.hero-section{
+    padding-top: 100px;
+    margin-right: 30px;
+    margin-left: 20px;
 }
